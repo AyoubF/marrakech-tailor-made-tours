@@ -3,23 +3,15 @@
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Claude-Skill-2f4a3a?style=flat-square&labelColor=2f4a3a&color=b8954a" alt="Claude Skill"/>
-  <img src="https://img.shields.io/badge/ChatGPT-Compatible-2f4a3a?style=flat-square&labelColor=2f4a3a&color=b8954a" alt="ChatGPT compatible"/>
-  <img src="https://img.shields.io/badge/Gemini-Compatible-2f4a3a?style=flat-square&labelColor=2f4a3a&color=b8954a" alt="Gemini compatible"/>
-  <a href="LICENSE"><img src="https://img.shields.io/badge/License-MIT-2f4a3a?style=flat-square&labelColor=2f4a3a&color=b8954a" alt="MIT licence"/></a>
-</p>
-
-<p align="center">
   <em>Marrakech rewards those who know how to read it.</em><br/>
-  This skill brings the judgement of a licensed local guide to any AI assistant,<br/>
-  so every day is paced, ordered and planned the way the city actually works.
+  This skill plans your days the way a licensed local guide would.
 </p>
 
 ---
 
 ## The Difference
 
-Most AI itineraries are written from travel blogs. They read well and fall apart on the ground. This skill is built on more than a decade of guiding and running tours across Morocco.
+Most AI itineraries come from travel blogs. This one comes from years of guiding in Marrakech.
 
 | A typical AI itinerary | With this skill |
 |---|---|
@@ -37,7 +29,7 @@ Most AI itineraries are written from travel blogs. They read well and fall apart
 
 ## Getting Started
 
-### Claude: web, desktop and mobile
+### Claude
 
 1. Download [`release/marrakech-tailor-made-tours.zip`](release/marrakech-tailor-made-tours.zip)
 2. In Claude, open **Settings** and go to **Skills**
@@ -57,15 +49,9 @@ git clone https://github.com/AyoubF/marrakech-tailor-made-tours.git
 cp -r marrakech-tailor-made-tours/marrakech-tailor-made-tours ~/.claude/skills/
 ```
 
-### ChatGPT, Gemini and other assistants
+### Other AI assistants
 
-Copy the contents of [`PROMPT.md`](PROMPT.md) into a new conversation, then describe your trip.
-
-For permanent use, create a **Custom GPT** or a **Gem**, add `PROMPT.md` as a knowledge file, and set the instruction: *Follow PROMPT.md for every answer.*
-
-### Claude API
-
-Upload the `marrakech-tailor-made-tours` folder through the Skills API. Documentation at [docs.claude.com](https://docs.claude.com).
+Paste the contents of [`PROMPT.md`](PROMPT.md) into a new conversation, then describe your trip.
 
 ---
 
@@ -142,7 +128,7 @@ marrakech-tailor-made-tours/
 │   │   ├── culture.md                Customs, seasons, language
 │   │   └── safety.md                 Wellbeing and emergencies
 │   └── assets/plan-template.html     Printable itinerary in the house style
-├── PROMPT.md                         Single file edition for other assistants
+├── PROMPT.md                         Version for other AI assistants
 ├── release/                          Ready to install package for Claude
 └── install.sh                        Installer for Claude Code
 ```
