@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="320" viewBox="0 0 900 320">
+  <defs>
+    <linearGradient id="sky" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#7A2E1C"/>
+      <stop offset="55%" stop-color="#A4432A"/>
+      <stop offset="100%" stop-color="#C9663E"/>
+    </linearGradient>
+    <linearGradient id="gold" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#F3C97A"/>
+      <stop offset="100%" stop-color="#E9A65A"/>
+    </linearGradient>
+    <pattern id="zellige" width="40" height="40" patternUnits="userSpaceOnUse">
+      <g fill="none" stroke="#FFFFFF" stroke-width="0.8" opacity="0.10">
+        <rect x="12" y="12" width="16" height="16"/>
+        <rect x="12" y="12" width="16" height="16" transform="rotate(45 20 20)"/>
+      </g>
+    </pattern>
+    <clipPath id="archClip">
+      <path d="M640 300 L640 150 C640 85 690 45 745 45 C800 45 850 85 850 150 L850 300 Z"/>
+    </clipPath>
+  </defs>
+
+  <rect width="900" height="320" rx="10" fill="url(#sky)"/>
+  <rect width="900" height="320" rx="10" fill="url(#zellige)"/>
+
+  <g clip-path="url(#archClip)">
+    <rect x="630" y="40" width="230" height="270" fill="#1F4E5F"/>
+    <circle cx="790" cy="120" r="26" fill="#F3C97A" opacity="0.95"/>
+    <path d="M630 300 L630 250 C680 228 720 240 760 222 C800 205 830 215 860 205 L860 300 Z" fill="#2E6B5E"/>
+    <rect x="722" y="150" width="46" height="115" fill="#D98A5F"/>
+    <rect x="716" y="140" width="58" height="12" fill="#C47650"/>
+    <rect x="733" y="112" width="24" height="28" fill="#D98A5F"/>
+    <rect x="729" y="106" width="32" height="7" fill="#C47650"/>
+    <rect x="743" y="92" width="4" height="14" fill="#F3C97A"/>
+    <circle cx="745" cy="90" r="4" fill="#F3C97A"/>
+    <path d="M735 175 C735 165 755 165 755 175 L755 192 L735 192 Z" fill="#7A2E1C" opacity="0.6"/>
+    <path d="M735 215 C735 205 755 205 755 215 L755 232 L735 232 Z" fill="#7A2E1C" opacity="0.6"/>
+    <path d="M630 300 L630 268 L860 252 L860 300 Z" fill="#7A2E1C" opacity="0.55"/>
+  </g>
+  <path d="M640 300 L640 150 C640 85 690 45 745 45 C800 45 850 85 850 150 L850 300" fill="none" stroke="url(#gold)" stroke-width="5"/>
+
+  <g font-family="Georgia, 'Times New Roman', serif" fill="#FFF8F0">
+    <text x="56" y="92" font-size="15" letter-spacing="4" fill="#F3C97A" font-family="Helvetica, Arial, sans-serif" font-weight="bold">FREE AI TRIP PLANNER SKILL</text>
+    <text x="56" y="150" font-size="44">Marrakech</text>
+    <text x="56" y="200" font-size="44">Tailor Made Tours</text>
+    <text x="58" y="240" font-size="18" fill="#FBE3D3">Plan Marrakech the way a licensed local guide would.</text>
+  </g>
+
+  <g font-family="Helvetica, Arial, sans-serif" font-size="13" font-weight="bold">
+    <rect x="56" y="262" width="76" height="28" rx="14" fill="#FFF8F0"/>
+    <text x="94" y="281" text-anchor="middle" fill="#7A2E1C">Claude</text>
+    <rect x="142" y="262" width="92" height="28" rx="14" fill="#FFF8F0"/>
+    <text x="188" y="281" text-anchor="middle" fill="#7A2E1C">ChatGPT</text>
+    <rect x="244" y="262" width="80" height="28" rx="14" fill="#FFF8F0"/>
+    <text x="284" y="281" text-anchor="middle" fill="#7A2E1C">Gemini</text>
+    <rect x="334" y="262" width="118" height="28" rx="14" fill="none" stroke="#FFF8F0" stroke-width="1.5"/>
+    <text x="393" y="281" text-anchor="middle" fill="#FFF8F0">11 commands</text>
+  </g>
+</svg>

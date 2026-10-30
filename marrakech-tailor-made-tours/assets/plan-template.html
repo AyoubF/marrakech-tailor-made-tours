@@ -1,0 +1,95 @@
+<!doctype html>
+<!--
+  Marrakech Tailor Made Tours printable plan template.
+  How to use: replace every {{PLACEHOLDER}}. Copy the whole <section class="day"> block once per day.
+  Copy each <li> or <a> as many times as needed. Remove "Assumptions" if there are none.
+  Save as an .html file. The traveller can open it on a phone or print it to PDF.
+-->
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>{{TRIP_TITLE}} · Marrakech Tailor Made Tours</title>
+<style>
+  :root { --clay:#A4432A; --clay-soft:#F7E9E3; --mint:#E3F2EC; --mint-ink:#1F5A47; --ink:#2A2522; --muted:#6F6660; --line:#E6DFD9; --paper:#FFFCF9; }
+  * { box-sizing:border-box; }
+  body { margin:0; background:#F3EEE9; color:var(--ink); font:16px/1.6 Georgia, "Times New Roman", serif; }
+  .page { max-width:780px; margin:24px auto; background:var(--paper); padding:32px 28px; border-radius:14px; }
+  .brand { color:var(--clay); font:600 13px/1 Helvetica, Arial, sans-serif; letter-spacing:.08em; text-transform:uppercase; }
+  h1 { font-size:30px; margin:8px 0 20px; font-weight:normal; }
+  h2 { font:600 15px/1.3 Helvetica, Arial, sans-serif; letter-spacing:.06em; text-transform:uppercase; color:var(--clay); margin:28px 0 10px; }
+  .summary { display:grid; grid-template-columns:repeat(auto-fit,minmax(140px,1fr)); gap:10px; }
+  .summary div { background:var(--clay-soft); border-radius:10px; padding:10px 12px; }
+  .summary b { display:block; font:12px Helvetica, Arial, sans-serif; color:var(--muted); font-weight:normal; }
+  .note { font-size:14px; color:var(--muted); margin-top:10px; }
+  .day { border:1px solid var(--line); border-radius:12px; padding:16px 18px; margin:14px 0; break-inside:avoid; }
+  .day-head { display:flex; justify-content:space-between; align-items:baseline; gap:10px; flex-wrap:wrap; }
+  .day-head h3 { margin:0; font-size:20px; font-weight:normal; }
+  .pill { font:12px Helvetica, Arial, sans-serif; background:var(--clay-soft); color:var(--clay); padding:3px 10px; border-radius:20px; }
+  .slots { display:grid; grid-template-columns:100px 1fr; gap:6px 14px; margin:12px 0; }
+  .slots span:nth-child(odd) { font:13px Helvetica, Arial, sans-serif; color:var(--muted); padding-top:3px; }
+  .tip { background:var(--mint); color:var(--mint-ink); border-radius:8px; padding:9px 12px; font-size:14px; margin-top:8px; }
+  .planb { background:#F4F1EE; color:var(--muted); border-radius:8px; padding:9px 12px; font-size:14px; margin-top:8px; }
+  .maps { font:13px Helvetica, Arial, sans-serif; margin-top:10px; }
+  .maps a { color:var(--clay); margin-right:10px; }
+  .boxes { display:grid; grid-template-columns:repeat(auto-fit,minmax(220px,1fr)); gap:12px; }
+  .box { border:1px solid var(--line); border-radius:12px; padding:12px 14px; break-inside:avoid; }
+  .box h4 { margin:0 0 6px; font:600 14px Helvetica, Arial, sans-serif; }
+  .box ul { margin:0; padding-left:18px; font-size:14px; }
+  footer { margin-top:28px; padding-top:12px; border-top:1px solid var(--line); display:flex; justify-content:space-between; flex-wrap:wrap; gap:8px; font:12px Helvetica, Arial, sans-serif; color:var(--muted); }
+  footer a { color:var(--clay); }
+  @media (max-width:520px) { .page { margin:0; border-radius:0; padding:22px 16px; } .slots { grid-template-columns:1fr; } }
+  @media print { body { background:#fff; } .page { margin:0; max-width:none; padding:0; } a { color:var(--ink); } }
+</style>
+</head>
+<body>
+<main class="page">
+
+  <div class="brand">Marrakech Tailor Made Tours</div>
+  <h1>{{TRIP_TITLE}}</h1>
+
+  <div class="summary">
+    <div><b>Dates</b>{{DATES}}</div>
+    <div><b>Travellers</b>{{TRAVELLERS}}</div>
+    <div><b>Pace</b>{{PACE}}</div>
+    <div><b>Budget</b>{{BUDGET}}</div>
+    <div><b>Staying in</b>{{STAYING_IN}}</div>
+  </div>
+  <p class="note">Assumptions: {{ASSUMPTIONS}}</p>
+
+  <h2>Day by day</h2>
+
+  <section class="day">
+    <div class="day-head">
+      <h3>Day {{N}} · {{DAY_THEME}}</h3>
+      <span class="pill">{{AREA}} · about {{KM}} km walking</span>
+    </div>
+    <div class="slots">
+      <span>Morning</span><span>{{MORNING}}</span>
+      <span>Afternoon</span><span>{{AFTERNOON}}</span>
+      <span>Evening</span><span>{{EVENING}}</span>
+    </div>
+    <div class="tip">Guide tip: {{GUIDE_TIP}}</div>
+    <div class="planb">Plan B: {{PLAN_B}}</div>
+    <div class="maps">Map: <a href="{{MAP_LINK}}">{{STOP_NAME}}</a></div>
+  </section>
+
+  <h2>Book before you go</h2>
+  <div class="box"><ul><li>{{BOOKING_ITEM}}</li></ul></div>
+
+  <h2>Good to know</h2>
+  <div class="boxes">
+    <div class="box"><h4>Fair prices</h4><ul><li>{{PRICE_ITEM}}</li></ul><p class="note">{{PRICES_CHECKED_LINE}}</p></div>
+    <div class="box"><h4>Watch out for</h4><ul><li>{{SCAM_ITEM}}</li></ul></div>
+    <div class="box"><h4>Useful words</h4><ul><li>{{PHRASE_ITEM}}</li></ul></div>
+    <div class="box"><h4>Pack</h4><ul><li>{{PACK_ITEM}}</li></ul></div>
+  </div>
+
+  <footer>
+    <span>Planned the way a licensed Marrakech guide would plan it</span>
+    <span><a href="https://marrakechtailormadetours.com">marrakechtailormadetours.com</a> · WhatsApp <a href="https://wa.me/212661922789">+212 661 922 789</a></span>
+  </footer>
+
+</main>
+</body>
+</html>
