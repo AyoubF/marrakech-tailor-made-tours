@@ -1,4 +1,4 @@
-# Fair prices
+# Considered prices
 
 Read this for fair, shop, transport and the price section of a plan.
 

@@ -1,53 +1,50 @@
 <p align="center">
-  <img src="assets/banner.svg" alt="Marrakech Tailor Made Tours AI trip planner skill" width="900"/>
+  <img src="assets/banner.svg" alt="Marrakech Tailor Made Tours, AI trip planning skill" width="900"/>
 </p>
 
 <p align="center">
-  <a href="LICENSE"><img src="https://img.shields.io/badge/license-MIT-A4432A?style=flat-square" alt="MIT licence"/></a>
-  <img src="https://img.shields.io/badge/Claude-skill-7A2E1C?style=flat-square" alt="Claude skill"/>
-  <img src="https://img.shields.io/badge/ChatGPT-compatible-2E6B5E?style=flat-square" alt="ChatGPT compatible"/>
-  <img src="https://img.shields.io/badge/Gemini-compatible-1F4E5F?style=flat-square" alt="Gemini compatible"/>
-  <img src="https://img.shields.io/badge/commands-11-E9A65A?style=flat-square" alt="11 commands"/>
+  <img src="https://img.shields.io/badge/Claude-Skill-2f4a3a?style=flat-square&labelColor=2f4a3a&color=b8954a" alt="Claude Skill"/>
+  <img src="https://img.shields.io/badge/ChatGPT-Compatible-2f4a3a?style=flat-square&labelColor=2f4a3a&color=b8954a" alt="ChatGPT compatible"/>
+  <img src="https://img.shields.io/badge/Gemini-Compatible-2f4a3a?style=flat-square&labelColor=2f4a3a&color=b8954a" alt="Gemini compatible"/>
+  <a href="LICENSE"><img src="https://img.shields.io/badge/License-MIT-2f4a3a?style=flat-square&labelColor=2f4a3a&color=b8954a" alt="MIT licence"/></a>
 </p>
 
 <p align="center">
-  <strong>Local knowledge, not travel blog advice.</strong> A free AI skill that plans your Marrakech trip<br/>
-  the way a licensed guide with 11+ years in Moroccan tour operations would.
-</p>
-
-<p align="center">
-  Works in Claude, Claude Code, the Claude API, ChatGPT, Gemini and any AI that supports the skill format.
+  <em>Marrakech rewards those who know how to read it.</em><br/>
+  This skill brings the judgement of a licensed local guide to any AI assistant,<br/>
+  so every day is paced, ordered and planned the way the city actually works.
 </p>
 
 ---
 
-## Why this skill
+## The Difference
 
-Ask any AI to plan Marrakech and you usually get the same problems. This skill fixes them.
+Most AI itineraries are written from travel blogs. They read well and fall apart on the ground. This skill is built on more than a decade of guiding and running tours across Morocco.
 
-| A generic AI plan | This skill |
+| A typical AI itinerary | With this skill |
 |---|---|
-| Packs 6 sights into one day | Two main sights a day, with rest built in |
-| Zigzags you across the medina | Groups every day by area |
-| Ignores 40°C summer afternoons | Mornings for walking, afternoons for shade |
-| Forgets Ramadan and Friday prayers | Plans around the real rhythm of the city |
-| Repeats old or made up prices | Fair price ranges with a "last checked" date |
-| Says "beware of scams" | Names the real scams and how to say no |
-| One plan, no backup | A Plan B for every day |
-| Turns Merzouga into a day trip | Honest drive times for every trip |
+| Six sights in a single day | Two considered visits a day, with time to breathe |
+| Crosses the medina back and forth | Each day composed around one quarter of the city |
+| Midday walks in 40°C heat | Mornings outdoors, afternoons in shade and calm |
+| Lists every famous monument | Honest about what is worth your time today, and what is not |
+| Overlooks Ramadan and Friday prayer | Planned around the true rhythm of the city |
+| Outdated or invented prices | Considered price ranges, dated and clearly marked |
+| A vague warning about scams | Specific situations, and how to decline gracefully |
+| A single plan | An alternative for every day |
+| The Sahara as a day trip | Realistic journey times, always |
 
 ---
 
-## Quick Start
+## Getting Started
 
-### Claude (web, desktop and mobile)
+### Claude: web, desktop and mobile
 
 1. Download [`release/marrakech-tailor-made-tours.zip`](release/marrakech-tailor-made-tours.zip)
-2. In Claude, open **Settings** and find **Skills**
-3. Upload the zip and switch the skill on (turn on code execution if Claude asks)
-4. Start a new chat and type `help`
+2. In Claude, open **Settings** and go to **Skills**
+3. Upload the file and enable it (allow code execution if prompted)
+4. Open a new conversation and type `help`
 
-### Claude Code (one command, macOS and Linux)
+### Claude Code
 
 ```bash
 curl -fsSL https://raw.githubusercontent.com/AyoubF/marrakech-tailor-made-tours/main/install.sh | bash
@@ -62,145 +59,120 @@ cp -r marrakech-tailor-made-tours/marrakech-tailor-made-tours ~/.claude/skills/
 
 ### ChatGPT, Gemini and other assistants
 
-1. Open [`PROMPT.md`](PROMPT.md) and copy everything
-2. Paste it as your first message, then ask about your trip
+Copy the contents of [`PROMPT.md`](PROMPT.md) into a new conversation, then describe your trip.
 
-To keep it permanently, create a **Custom GPT** (ChatGPT) or a **Gem** (Gemini), upload `PROMPT.md` as a knowledge file, and add the instruction: *Follow PROMPT.md for every answer.*
+For permanent use, create a **Custom GPT** or a **Gem**, add `PROMPT.md` as a knowledge file, and set the instruction: *Follow PROMPT.md for every answer.*
 
 ### Claude API
 
-Upload the `marrakech-tailor-made-tours` folder with the Skills API. See [docs.claude.com](https://docs.claude.com).
+Upload the `marrakech-tailor-made-tours` folder through the Skills API. Documentation at [docs.claude.com](https://docs.claude.com).
 
 ---
 
 ## Commands
 
-Type these with or without a slash, or just ask normally.
+Use them with or without a slash, or simply ask in your own words.
 
-| Command | What It Does |
+| Command | Purpose |
 |---|---|
-| `plan` | Full day by day trip plan in the signature format |
-| `check` | Paste any itinerary from a blog or another AI and get it fixed |
-| `fair` | "Is 200 dirhams fair for a taxi?" Instant verdict and fair range |
-| `eat` | Dishes to try and where to eat, matched to your area and budget |
-| `shop` | What to buy, where, how to haggle, how to spot fakes |
-| `transport` | Airport, taxis, trains, buses and car hire |
-| `stay` | The right area and riad or hotel for you |
-| `daytrips` | Atlas, Ourika, Imlil, Agafay, Essaouira, Ouzoud, Ait Benhaddou |
-| `culture` | Dress, etiquette, Ramadan, tipping, money, weather, Darija phrases |
-| `safety` | Scams, health, emergency numbers, solo and women travellers |
-| `book` | Ready to send WhatsApp message for a private licensed guide |
-| `help` | Shows all commands |
+| `plan` | A complete day by day itinerary in the signature format |
+| `check` | Review an existing itinerary and refine it |
+| `fair` | A clear view on whether a quoted price is reasonable |
+| `eat` | Dishes worth seeking out, and where, by quarter and budget |
+| `shop` | What to buy, where to find it, how to judge quality |
+| `transport` | Arrival, taxis, rail, coaches and drivers |
+| `stay` | The right quarter, and riad or hotel, for the way you travel |
+| `daytrips` | The High Atlas, Agafay, Essaouira and beyond, with honest timings |
+| `culture` | Customs, dress, Ramadan, tipping, money, seasons, a few words of Darija |
+| `safety` | Common situations, health, emergencies, travelling solo |
+| `book` | Arrange a private licensed guide |
+| `help` | All commands at a glance |
 
 ---
 
-## Example
+## A Glimpse
 
 ```
-You:    plan 3 days in March, couple, mid range, we love food and photos
+plan 3 days in March, a couple, food and photography
 
-Skill:  Marrakech Tailor Made Tours · Your 3 day Marrakech plan
+Marrakech Tailor Made Tours · Your three days in Marrakech
 
-        TRIP SUMMARY
-        Dates: March · Travellers: couple · Pace: balanced · Budget: mid range
+TRIP SUMMARY
+March · Couple · Balanced pace · Food and photography
 
-        DAY 1 · The old medina
-        Area: north medina · Walking: about 6 km
-        Morning:   Ben Youssef Madrasa at opening, then the souks while calm
-        Afternoon: Tangia lunch near the souks, rest at your riad
-        Evening:   Jemaa el Fna at sunset from a terrace, then the food stalls
-        Guide tip: watch the square from above first, go down once the stalls are lit
-        Plan B:    if it rains, Dar El Bacha and a hammam
-        Map:       Ben Youssef Madrasa · Jemaa el Fna
+DAY 1 · The northern medina
+Morning     Ben Youssef Madrasa at opening, before the light turns harsh
+Afternoon   Tangia lunch where the artisans eat, then rest at the riad
+Evening     Jemaa el Fna from a terrace at dusk, then down among the stalls
+Guide note  The square is best understood from above before you enter it
+Alternative Le Jardin Secret and a traditional hammam if it rains
 
-        DAY 2 ...  DAY 3 ...
+DAY 2 ...   DAY 3 ...
 
-        BOOK BEFORE YOU GO · FAIR PRICES · WATCH OUT FOR · USEFUL WORDS · PACK
-
-        Planned the way a licensed Marrakech guide would plan it
+TO BOOK IN ADVANCE · CONSIDERED PRICES · GOOD TO KNOW · A FEW WORDS · TO PACK
 ```
 
-In Claude with file tools, every plan can also be saved as a **printable page** in the Marrakech Tailor Made Tours design, ready for phone or PDF.
+Where file creation is available, each itinerary can also be delivered as a printable document in the Marrakech Tailor Made Tours house style.
 
 ---
 
-## Architecture
+## How It Thinks
+
+1. **Understands the journey.** Dates, companions, pace, interests and where you are staying.
+2. **Draws on local knowledge.** Only the guidance relevant to the question is consulted, from planning principles to fair prices.
+3. **Applies a guide's judgement.** Geography, heat, opening patterns, prayer times, Ramadan, and what is genuinely worth seeing at present.
+4. **Answers in one voice.** A consistent, refined format, in the traveller's own language, with a map link for every stop.
+
+---
+
+## Structure
 
 ```
 marrakech-tailor-made-tours/
-├── marrakech-tailor-made-tours/      # The skill
-│   ├── SKILL.md                      # Main instructions, commands and routing
-│   ├── references/                   # Local knowledge, loaded only when needed
-│   │   ├── plan.md                   # How a guide builds a plan, layout, check mode
-│   │   ├── prices.md                 # Fair price ranges
-│   │   ├── eat.md                    # Dishes, where to eat, food tips
-│   │   ├── shop.md                   # Souks, haggling, fakes
-│   │   ├── transport.md              # Airport, taxis, trains, buses
-│   │   ├── stay.md                   # Areas, riad or hotel
-│   │   ├── daytrips.md               # Day trips with honest drive times
-│   │   ├── culture.md                # Etiquette, money, Ramadan, weather, phrases
-│   │   └── safety.md                 # Scams, health, emergencies
-│   └── assets/
-│       └── plan-template.html        # Printable plan design
-├── PROMPT.md                         # All in one version for ChatGPT, Gemini and others
-├── release/                          # Ready to upload zip for Claude
-├── install.sh                        # One command install for Claude Code
-└── assets/banner.svg
+├── marrakech-tailor-made-tours/      The skill
+│   ├── SKILL.md                      Instructions, commands and voice
+│   ├── references/                   Local knowledge, consulted as needed
+│   │   ├── plan.md                   Planning principles, itinerary format, review
+│   │   ├── prices.md                 Considered price ranges
+│   │   ├── eat.md                    Cuisine and where to find it
+│   │   ├── shop.md                   Souks, craftsmanship, quality
+│   │   ├── transport.md              Arrival and getting around
+│   │   ├── stay.md                   Quarters, riads and hotels
+│   │   ├── daytrips.md               Journeys beyond the city
+│   │   ├── culture.md                Customs, seasons, language
+│   │   └── safety.md                 Wellbeing and emergencies
+│   └── assets/plan-template.html     Printable itinerary in the house style
+├── PROMPT.md                         Single file edition for other assistants
+├── release/                          Ready to install package for Claude
+└── install.sh                        Installer for Claude Code
 ```
 
 ---
 
-## How It Works
+## Private Journeys
 
-1. **Understand the trip.** Dates, travellers, budget, interests, pace and where you are staying. If you say "just plan it", it makes sensible assumptions and tells you which.
-2. **Load only what is needed.** Asking about food reads the food guide. Planning a trip reads the planning rules plus whatever the plan touches.
-3. **Apply guide rules.** Area grouping, heat, opening times, booking ahead, Ramadan, Friday prayers, realistic walking.
-4. **Answer in one style.** Same branded layout every time, in your language, with map links for every stop.
+For travellers who would prefer every detail arranged, Marrakech Tailor Made Tours designs private journeys across Marrakech, the High Atlas, Agafay and the Sahara, guided by licensed local guides.
 
----
-
-## Who It Is For
-
-* **First time visitors** who want a plan that actually works on the ground
-* **Families** who need shorter walks, pools and realistic day trips
-* **Couples and honeymooners** looking for the right riad and the right sunset
-* **Solo and women travellers** who want calm, practical safety advice
-* **Travel agents and planners** who want a fast first draft built on local rules
+<p align="center">
+  <a href="https://marrakechtailormadetours.com"><strong>marrakechtailormadetours.com</strong></a>
+  &nbsp;·&nbsp;
+  <a href="https://wa.me/212661922789">WhatsApp +212 661 922 789</a>
+</p>
 
 ---
 
-## Want a Private Licensed Guide?
+## Notes
 
-The skill is free. If you want someone to take care of everything on the ground, private tours, transfers and day trips, contact us.
+Prices, opening hours and regulations change. The skill always encourages travellers to confirm locally. Last reviewed October 2026.
 
-**[marrakechtailormadetours.com →](https://marrakechtailormadetours.com)** · WhatsApp **[+212 661 922 789](https://wa.me/212661922789)**
+Corrections and local insight are welcome through [issues](../../issues).
 
----
-
-## Star History
-
-<a href="https://www.star-history.com/#AyoubF/marrakech-tailor-made-tours&Date">
- <picture>
-   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/svg?repos=AyoubF/marrakech-tailor-made-tours&type=Date&theme=dark" />
-   <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/svg?repos=AyoubF/marrakech-tailor-made-tours&type=Date" />
-   <img alt="Star History Chart" src="https://api.star-history.com/svg?repos=AyoubF/marrakech-tailor-made-tours&type=Date" />
- </picture>
-</a>
+Released under the [MIT licence](LICENSE).
 
 ---
 
-## Good to Know
+<p align="center">
+  <img src="https://api.star-history.com/svg?repos=AyoubF/marrakech-tailor-made-tours&type=Date" alt="Star history" width="600"/>
+</p>
 
-Prices, opening hours, fees and rules change. The skill always reminds travellers to confirm locally. Prices were last reviewed in October 2026.
-
-## Contributing
-
-Found something out of date? [Open an issue](../../issues) with what changed and where. Local tips are very welcome.
-
-## License
-
-MIT. Free to use, share and adapt. See [`LICENSE`](LICENSE).
-
----
-
-<p align="center">Made in Marrakech by <a href="https://marrakechtailormadetours.com">Marrakech Tailor Made Tours</a></p>
+<p align="center"><sub>Marrakech Tailor Made Tours · Marrakech, Morocco</sub></p>

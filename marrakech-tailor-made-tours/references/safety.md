@@ -1,6 +1,6 @@
 # Safety, scams and emergencies
 
-Read this for the safety command and the "watch out for" part of a plan. Marrakech is generally safe for visitors. The real problems are hassle, small scams and traffic, not violence. Keep the tone calm and practical, never alarming.
+Read this for the safety command and the "good to know" part of a plan. Marrakech is generally safe for visitors. The real problems are hassle, small scams and traffic, not violence. Keep the tone calm and practical, never alarming.
 
 ## Common scams and how to handle them
 

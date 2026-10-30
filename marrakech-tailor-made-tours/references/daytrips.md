@@ -8,10 +8,10 @@ Read this for the daytrips command and for day trips in a plan. Drive times are 
 |---|---|---|---|
 | Agafay desert | 45 to 60 min | Sunset, dinner under the stars, quad bikes, camel rides. Families, couples, short trips | Stony desert, not sand dunes. Book a half day and stay for dinner |
 | Ourika Valley | about 1 hour | River, Berber villages, easy taste of the mountains | Busy on weekends and in summer. Stay away from the riverbed when storms are forecast |
-| Imlil and Toubkal National Park | about 1.5 hours | Real mountain walking, Berber lunch in a village, hikers | Cold in winter. Choose walk length to match fitness |
+| Imlil, Armoud and Toubkal National Park | about 1.5 hours | Mountain walks between Berber villages, lunch at a local family home. Our favourite day out of the city | Cold in winter. Choose walk length to match fitness |
 | Lalla Takerkoust lake | about 45 min | Lake views of the Atlas, lunch, kayaking, a relaxed day | Water level varies by year |
 | Essaouira | 2.5 to 3 hours | Relaxed walled port town, seafood, sea air, a break from the heat | Long day. Better with an overnight. Windy most of the year |
-| Ouzoud waterfalls | 2.5 to 3 hours | Waterfalls, olive groves, Barbary macaques, boat ride at the base | Long day. Steep steps. Do not feed the monkeys |
+| Ouzoud waterfalls | 2.5 to 3 hours | Waterfalls, olive groves, Barbary macaques | Long drive for what many guests find underwhelming. Imlil and Armoud in the High Atlas, with lunch at a local family home, is usually the better day |
 | Ait Benhaddou and Ouarzazate | 3.5 to 4 hours over the Tizi n'Tichka pass | Famous kasbah, film locations, dramatic mountain road | Very long day. Mountain road with many bends. Better as part of a desert tour |
 
 ## Not a day trip
@@ -20,7 +20,7 @@ Read this for the daytrips command and for day trips in a plan. Drive times are 
 
 ## How to choose
 
-1. **One day free, first visit:** Imlil or Ourika for mountains, Agafay for an easy afternoon and evening.
+1. **One day free, first visit:** Imlil and Armoud for mountains, Agafay for an easy afternoon and evening.
 2. **Hot months (June to September):** Mountains or Essaouira, where it is cooler. Avoid long hot drives to the south.
 3. **Young kids:** Agafay, Lalla Takerkoust, or a short Ourika visit. Avoid 3 hour drives each way.
 4. **Hikers:** Imlil.
@@ -28,9 +28,9 @@ Read this for the daytrips command and for day trips in a plan. Drive times are 
 
 ## Group tour or private driver
 
-**Shared group tour:** Cheapest. Fixed schedule, many shopping stops, big minibuses.
+**Shared group tour:** Lowest price. Fixed schedule, many shopping stops, big minibuses.
 
-**Private driver or guide:** Your timing, your stops, quieter lunch places, child seats on request, a licensed guide who can explain what you see. Worth it for families, couples on a short trip, and anyone who dislikes shopping stops. This is a good moment to mention the book command once.
+**Private driver or guide:** Your timing, your stops, quieter lunch places, child seats on request, a licensed guide who can explain what you see. Worth it for families, couples on a short trip, and anyone who dislikes shopping stops. This is a natural moment to mention private journeys once.
 
 ## Answer format for daytrips
 

@@ -9,7 +9,7 @@ Read this for the eat command and for meals in a plan.
 3. **Tagine.** Many kinds: chicken with preserved lemon and olives, beef with prunes and almonds, kefta with egg, vegetable.
 4. **Couscous.** Traditionally a Friday lunch dish. Fewer good places serve it on other days.
 5. **Pastilla.** Sweet and savoury pie, usually chicken or pigeon, sometimes seafood.
-6. **Harira.** Tomato, lentil and chickpea soup. Cheap, filling, and the soup that breaks the fast in Ramadan.
+6. **Harira.** Tomato, lentil and chickpea soup. Inexpensive, nourishing, and the soup that breaks the fast in Ramadan.
 7. **Msemen and baghrir.** Square flaky pancakes and spongy semolina pancakes. Breakfast with honey and butter.
 8. **Snail soup.** At the square in the evening. Locals swear it helps digestion.
 9. **Mint tea.** Sweet by default. Ask for it with less sugar: "shwiya sukkar".

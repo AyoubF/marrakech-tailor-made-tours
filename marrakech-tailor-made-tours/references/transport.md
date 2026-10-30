@@ -8,7 +8,7 @@ About 15 to 20 minutes by car from the medina.
 
 1. **Riad transfer.** Easiest. Most riads in the medina are down lanes cars cannot enter. The driver meets you with a name sign and someone walks you to the door. Strongly recommended for a first night arrival.
 2. **Taxi.** Taxis wait outside arrivals. Agree the price before getting in. Ask the driver to drop you at the nearest car access point and to call your riad.
-3. **Airport bus.** Runs between the airport, Jemaa el Fna and Gueliz. Cheapest option. Fine with light bags in daylight.
+3. **Airport bus.** Runs between the airport, Jemaa el Fna and Gueliz. The lowest cost option. Fine with light bags in daylight.
 4. **ATM and SIM:** There are ATMs and phone shops in arrivals. See culture.md for money.
 
 ## Getting around the city
@@ -21,7 +21,7 @@ About 15 to 20 minutes by car from the medina.
 
 ## Leaving Marrakech
 
-1. **Train (ONCF).** Marrakech station in Gueliz. Trains to Casablanca, Rabat, Fes and Tangier (via a change to the high speed train further north). Comfortable and cheap. Buy first class for more space. Tickets at oncf.ma or the station.
+1. **Train (ONCF).** Marrakech station in Gueliz. Trains to Casablanca, Rabat, Fes and Tangier (via a change to the high speed train further north). Comfortable and good value. Buy first class for more space. Tickets at oncf.ma or the station.
 2. **Buses (CTM and Supratours).** Reliable long distance coaches to Essaouira, Agadir, Ouarzazate and more. Book a day ahead in busy periods.
 3. **Grand taxis.** Shared taxis for nearby towns and valleys. Leave when full. You can pay for all seats to leave at once.
 4. **Private driver.** Best for day trips, families and comfort. See daytrips.md.
@@ -29,4 +29,4 @@ About 15 to 20 minutes by car from the medina.
 
 ## Answer format for transport
 
-Header, then the exact route they asked about, the options from easiest to cheapest, a fair price for each, and one tip. Footer.
+Header, then the exact route they asked about, the options from most comfortable to lowest cost, a fair price for each, and one tip. Footer.
