@@ -7,6 +7,10 @@
   This skill plans your days the way a licensed local guide would.
 </p>
 
+<p align="center">
+  <sub>Built by <a href="https://www.marrakechtailormadetours.com/?utm_source=github&utm_medium=readme">Marrakech Tailor Made Tours</a> · 5.0 on Google · 4.91 on Airbnb from 691 reviews · 1,000+ guests from 30+ countries</sub>
+</p>
+
 ---
 
 ## The Difference
@@ -37,6 +41,12 @@ Most AI itineraries come from travel blogs. This one comes from years of guiding
 4. Open a new conversation and type `help`
 
 ### Claude Code
+
+```bash
+npx github:AyoubF/marrakech-tailor-made-tours
+```
+
+Add `--project` to install it for the current project only. Or, without Node:
 
 ```bash
 curl -fsSL https://raw.githubusercontent.com/AyoubF/marrakech-tailor-made-tours/main/install.sh | bash
@@ -102,6 +112,25 @@ Where file creation is available, each itinerary can also be delivered as a prin
 
 ---
 
+## From Plan to Experience
+
+The skill tells you what to do. Our guides show you how it is lived.
+
+| If you asked the skill about | Experience it privately |
+|---|---|
+| The medina and its stories | [Medina and Cultural Discovery](https://www.marrakechtailormadetours.com/marrakech-medina-tour/?utm_source=github&utm_medium=readme) |
+| The souks, quality and fair prices | [Marrakech Shopping Tour](https://www.marrakechtailormadetours.com/marrakech-shopping-tour/?utm_source=github&utm_medium=readme) |
+| What and where to eat | [Food and Souk Experience](https://www.marrakechtailormadetours.com/marrakech-food-tours/?utm_source=github&utm_medium=readme) |
+| The city in a day | [Private Marrakech City Tour](https://www.marrakechtailormadetours.com/private-marrakech-city-tour/?utm_source=github&utm_medium=readme) |
+| The High Atlas | [Atlas Mountains and Berber Villages](https://www.marrakechtailormadetours.com/atlas-mountains-day-trip-from-marrakech/?utm_source=github&utm_medium=readme) |
+| Agafay | [Agafay Desert Luxury Experience](https://www.marrakechtailormadetours.com/agafay-desert-day-trip-from-marrakech/?utm_source=github&utm_medium=readme) |
+| The coast | [Essaouira Coastal Day Trip](https://www.marrakechtailormadetours.com/essaouira-day-trip-from-marrakech/?utm_source=github&utm_medium=readme) |
+| The Sahara | [Sahara Desert Multi Day Journey](https://www.marrakechtailormadetours.com/sahara-desert-tour-from-marrakech/?utm_source=github&utm_medium=readme) |
+| A guide at your side, your way | [Private Guide for the Day](https://www.marrakechtailormadetours.com/private-guide-marrakech/?utm_source=github&utm_medium=readme) |
+| Something entirely your own | [Custom Itinerary](https://www.marrakechtailormadetours.com/morocco-tailor-made-tours/?utm_source=github&utm_medium=readme) |
+
+---
+
 ## How It Thinks
 
 1. **Understands the journey.** Dates, companions, pace, interests and where you are staying.
@@ -130,6 +159,7 @@ marrakech-tailor-made-tours/
 │   └── assets/plan-template.html     Printable itinerary in the house style
 ├── PROMPT.md                         Version for other AI assistants
 ├── release/                          Ready to install package for Claude
+├── bin/install.js                    npx installer
 └── install.sh                        Installer for Claude Code
 ```
 
@@ -137,12 +167,30 @@ marrakech-tailor-made-tours/
 
 ## Private Journeys
 
-For travellers who would prefer every detail arranged, Marrakech Tailor Made Tours designs private journeys across Marrakech, the High Atlas, Agafay and the Sahara, guided by licensed local guides.
+For travellers who would prefer every detail arranged. Marrakech Tailor Made Tours designs private journeys across Marrakech, the High Atlas, Agafay and the Sahara.
+
+* Always private, never shared with strangers
+* Licensed local guides
+* Shaped around your interests and pace
+* Every enquiry answered within 24 hours
 
 <p align="center">
-  <a href="https://marrakechtailormadetours.com"><strong>marrakechtailormadetours.com</strong></a>
+  <a href="https://www.marrakechtailormadetours.com/contact-us/?utm_source=github&utm_medium=readme"><strong>Plan your journey with us</strong></a>
   &nbsp;·&nbsp;
-  <a href="https://wa.me/212661922789">WhatsApp +212 661 922 789</a>
+  <a href="https://wa.me/212661922789">WhatsApp</a>
+  &nbsp;·&nbsp;
+  <a href="https://www.marrakechtailormadetours.com/marrakech-retreat/?utm_source=github&utm_medium=readme">Private retreats</a>
+  &nbsp;·&nbsp;
+  <a href="https://www.marrakechtailormadetours.com/about-us/?utm_source=github&utm_medium=readme">About us</a>
+</p>
+
+<p align="center">
+  <sub>
+    <a href="https://www.google.com/search?q=Marrakech%20Tailor%20Made%20Tours%20Reviews">Google reviews</a> ·
+    <a href="https://www.airbnb.com/experiences/208183">Airbnb</a> ·
+    <a href="https://www.tripadvisor.com/Attraction_Review-g293734-d34079198-Reviews-Marrakech_Tailor_Made_Tours-Marrakech_Marrakech_Safi.html">Tripadvisor</a> ·
+    <a href="https://www.instagram.com/marrakechtailormadetours/">Instagram</a>
+  </sub>
 </p>
 
 ---
@@ -161,4 +209,4 @@ Released under the [MIT licence](LICENSE).
   <img src="https://api.star-history.com/svg?repos=AyoubF/marrakech-tailor-made-tours&type=Date" alt="Star history" width="600"/>
 </p>
 
-<p align="center"><sub>Marrakech Tailor Made Tours · Marrakech, Morocco</sub></p>
+<p align="center"><sub><a href="https://www.marrakechtailormadetours.com/?utm_source=github&utm_medium=readme">Marrakech Tailor Made Tours</a> · Marrakech, Morocco</sub></p>

@@ -1,0 +1,12 @@
+{
+  "name": "marrakech-tailor-made-tours",
+  "version": "1.0.0",
+  "description": "Plan Marrakech like a local guide. An AI trip planning skill.",
+  "bin": {
+    "marrakech-tailor-made-tours": "bin/install.js"
+  },
+  "files": ["bin", "marrakech-tailor-made-tours"],
+  "homepage": "https://marrakechtailormadetours.com",
+  "repository": "github:AyoubF/marrakech-tailor-made-tours",
+  "license": "MIT"
+}
